@@ -1,41 +1,19 @@
-body {
+table {
+    border-collapse: collapse;
+    width: 75%;
+    margin: 50px auto;
     font-family: Arial, sans-serif;
-    background-color: lightgrey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
-form {
-    background-color: white;
-    padding: 20px;
-    width: 300px;
-    border: 1px solid lightslategrey;
-    border-radius: 5px;
+th {
+    background-color: pink;
+    color: crimson;
+    padding: 10px;
+    border: 1px solid green;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid black;
     text-align: center;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="password"] {
-    width: 90%;
-    padding: 8px;
-    margin: 5px 0;
-    border: 1px solid lightslategrey;
-}
-
-button[type="submit"] {
-    background-color: blue;
-    color: white;
-    padding: 8px;
-    border: none;
-    width: 100%;
-}
-
-button[type="button"] {
-    border: 1px solid lightgray;
-    background-color: white;
-    padding: 5px 10px;
-    margin: 5px;
 }
