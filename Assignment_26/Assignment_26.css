@@ -1,0 +1,14 @@
+div ~ p {
+    color: green;
+}
+
+/*
+div p: Apply to all the p's inside the div
+
+div + p: Applies to next sibling p tag which is next sibling of div
+
+div > p: Applies to p tag which is direct child of div
+
+div ~ p: Applies to all the sibling p tags which are siblings of div
+
+*/
